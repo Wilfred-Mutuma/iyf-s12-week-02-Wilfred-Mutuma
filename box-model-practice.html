@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Practice | Wilfred Mutuma</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>CSS Box Model Practice</h1>
+        <p>Learning how content, padding, borders and margins work.</p>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Exercise 1: Understand the box model -->
+        <section>
+            <h2>Exercise 1: The Four Parts of the Box Model</h2>
+            <p>Each box demonstrates content, padding, border and margin.</p>
+
+            <div class="box-examples">
+                <div class="model-box content-box">
+                    <strong>Content</strong>
+                    <p>The information inside an element.</p>
+                </div>
+
+                <div class="model-box padding-box">
+                    <strong>Padding</strong>
+                    <p>The space between content and border.</p>
+                </div>
+
+                <div class="model-box border-box-example">
+                    <strong>Border</strong>
+                    <p>The line surrounding the padding and content.</p>
+                </div>
+
+                <div class="model-box margin-box">
+                    <strong>Margin</strong>
+                    <p>The space outside an element's border.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Exercise 2: Fix the broken box -->
+        <section>
+            <h2>Exercise 2: Fix the Broken Box</h2>
+            <p>The total width of this box, including padding and border,
+                should be exactly 300px.</p>
+
+            <div class="broken-box">
+                <p>My total width is 300px.</p>
+            </div>
+        </section>
+
+        <!-- Exercise 3: Build a card -->
+        <section>
+            <h2>Exercise 3: Build a Card</h2>
+            <p>Create a card with a total width of 300px.</p>
+
+            <article class="practice-card">
+                <img
+                    src="https://placehold.co/258x140?text=Portfolio+Project"
+                    alt="Placeholder image representing a portfolio project"
+                >
+
+                <div class="practice-card-content">
+                    <h3>My Portfolio Project</h3>
+                    <p>
+                        This card demonstrates how width, padding, borders
+                        and spacing work together in a practical design.
+                    </p>
+                    <button type="button">Learn More</button>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Wilfred Mutuma. CSS learning project.</p>
+    </footer>
+
+</body>
+</html>
